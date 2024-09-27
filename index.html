@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Cadett</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #8C3086; /* Color de fondo */
+      color: white; /* Color del texto para contraste */
+    }
+    header {
+      text-align: center; /* Centra el texto en el encabezado */
+      margin-bottom: 20px;
+    }
+    nav {
+      display: flex; /* Usar flexbox para alinear las cajitas */
+      justify-content: center; /* Centra las cajitas en la navegación */
+      gap: 15px; /* Espacio entre las cajitas */
+    }
+    .nav-item {
+      background: white; /* Fondo blanco para la cajita de navegación */
+      border-radius: 8px; /* Bordes redondeados */
+      padding: 10px 15px; /* Espaciado interno */
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+      text-align: center; /* Centra el texto dentro de la cajita */
+      transition: background 0.3s; /* Transición para el hover */
+    }
+    .nav-item:hover {
+      background: #f0f0f0; /* Color de fondo al pasar el mouse */
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      display: block;
+      margin: 0 auto; /* Centra la imagen */
+      max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+      height: auto; /* Mantiene la proporción de la imagen */
+    }
+    p, h2, h3 {
+      text-align: center; /* Centra el texto de los párrafos y encabezados */
+    }
+    section {
+      margin-top: 20px;
+      padding: 10px;
+      border-top: 2px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>PROGRAMACIÓN DE APLICACIONES WEB Y MÓVILES</h1>
+    <nav>
+      <div class="nav-item">
+        <a href="index.html" style="color: #8C3086; text-decoration: none;">INICIO</a>
+      </div>
+      <div class="nav-item">
+        <a href="tareas.html" style="color: #8C3086; text-decoration: none;">TAREAS</a>
+      </div>
+    </nav>
+  </header>
+  
+  <div class="container">
+    <p>Esta es una breve presentación de mi trabajo y proyectos. Espero que disfruten la visita.</p>
+
+    <img src="img/hola.jpg" alt="Proyecto 1"> <!-- Imagen centrada -->
+    
+  </div>
+</body>
+</html>
+
